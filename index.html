@@ -211,7 +211,61 @@
           </li>
         </ul>
       </section>
+
+      <section class="order-section">
+        <div class="container">
+          <h2 class="order-title">
+            Leave a request and our manager will contact you shortly
+          </h2>
+          <p class="order-text">
+            You will have the opportunity to discuss details and ask clarifying
+            questions
+          </p>
+          <form class="order-form">
+            <div class="order-wrapper">
+              <label class="order-label"
+                ><input
+                  class="order-input"
+                  name="order-tel"
+                  type="tel"
+                  placeholder="Phone number"
+                  required /></label
+              ><label class="order-label"
+                ><input
+                  class="order-input"
+                  name="order-name"
+                  type="text"
+                  placeholder="Name"
+                  required
+                />
+              </label>
+              <button class="order-btn" type="submit">Order calculation</button>
+            </div>
+            <div class="checkbox-container">
+              <input
+                class="order-input"
+                name="order-privacy"
+                id="order-privacy"
+                value="true"
+                type="checkbox"
+              />
+              <label class="order-label" for="order-privacy">
+                <span class="order-span">
+                  <svg class="order-icon">
+                    <use></use>
+                  </svg>
+                </span>
+                By clicking on the button, you agree to the
+                <a class="order-link" href="#"
+                  >terms of processing personal data</a
+                >
+              </label>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
+
     <footer id="contacts">
       <a href="./index.html">World.net</a>
       <ul>
@@ -245,6 +299,7 @@
       </ul>
       <a href="tel:88006549732">8 (800) 654-97-32</a>
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="close-btn" type="button" data-modal-close>X</button>

@@ -188,6 +188,102 @@ img {
   line-height: 1.5;
   color: #fff;
 }
+
+.order-section {
+  padding: 100px 0;
+}
+
+.order-title {
+  width: 707px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.3;
+  text-align: center;
+  color: #2e363e;
+  margin-bottom: 26px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.order-text {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.43;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #2e363e;
+  margin-bottom: 50px;
+}
+.order-form {
+}
+.order-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.order-label {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.3;
+  color: #7e868e;
+}
+.order-input {
+  border: 1px solid rgba(0, 0, 0, 0.32);
+  border-radius: 5px;
+  padding-left: 30px;
+  width: 280px;
+  height: 70px;
+  background-color: transparent;
+  outline: transparent;
+  transition: border-color 250ms ease-in-out;
+}
+
+.order-input:focus {
+  border-color: #022c40;
+}
+
+.order-input::placeholder {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.1;
+  color: #bfbfbf;
+}
+
+.order-btn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.1;
+  text-align: center;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  min-width: 280px;
+  height: 70px;
+  background-color: #275f7a;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  background-color: #e3f2f9;
+  color: #022c40;
+}
+
+.checkbox-container {
+}
+.order-span {
+}
+.order-icon {
+}
+.order-link {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #275f7a;
+}
+
+/* Modal styles */
+
 .backdrop {
   background: rgba(0, 0, 0, 0.56);
   position: fixed;
