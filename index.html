@@ -60,7 +60,7 @@
               We work only in small towns. Thanks to this, we maintain quality
               and we will not spray
             </p>
-            <button class="hero-btn" type="button">
+            <button class="hero-btn" type="button" data-modal-open>
               Submit your application
             </button>
           </div>
@@ -245,5 +245,46 @@
       </ul>
       <a href="tel:88006549732">8 (800) 654-97-32</a>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="close-btn" type="button" data-modal-close>X</button>
+        <p class="modal-subtitle">Contact Us</p>
+        <p class="modal-title">
+          <span class="modal-title-part">Contact</span> Us & We Can Work
+          Together
+        </p>
+        <p class="modal-text">
+          Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at arcu
+          enim id gravida pulvinar. Tristique consectetur mi curabitur congue
+          enim dignissim
+        </p>
+        <form class="modal-form">
+          <label class="form-input-label">
+            <input
+              class="form-input"
+              type="text"
+              placeholder="Your Name"
+              name="user-name"
+            /> </label
+          ><label class="form-input-label">
+            <input
+              class="form-input"
+              type="email"
+              placeholder="Your Email"
+              name="user-email"
+            />
+          </label>
+          <label class="form-textarea-label">
+            <textarea
+              class="form-textarea-box"
+              name="users-comment"
+              placeholder="Your Message"
+            ></textarea>
+          </label>
+          <button class="submit-btn" type="submit">Submit Message</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
