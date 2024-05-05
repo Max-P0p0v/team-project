@@ -43,6 +43,18 @@ img {
   max-width: 100%;
   height: auto;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 /* Header Styles */
 
@@ -220,6 +232,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 20px;
+  margin-bottom: 32px;
 }
 
 .order-label {
@@ -271,8 +284,23 @@ img {
 }
 
 .checkbox-container {
+  display: flex;
+  justify-content: center;
 }
 .order-span {
+  border: 1px solid #000;
+  border-radius: 2px;
+  width: 12px;
+  height: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+.order-input:checked + .order-label > .order-span {
+  background-color: #022c40;
+  border: none;
+  fill: #ffffff;
 }
 .order-icon {
 }
